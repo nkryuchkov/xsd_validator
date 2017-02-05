@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questionnaires>
+<title>Questionnaire</title>
+<questionnaire>
+    <fname>Ivan</fname>
+    <lname>Ivanov</lname>
+	<age>30</age>
+</questionnaire>
+<questionnaire>
+    <fname>Petr</fname>
+    <lname>Petrov</lname>
+	<age>40</age>
+</questionnaire>
+</questionnaires>

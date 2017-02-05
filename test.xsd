@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="questionnaires">
+              <xs:complexType>
+                     <xs:sequence>
+                            <xs:element name="title" type="xs:string"></xs:element>
+                            <xs:element name="questionnaire" maxOccurs="unbounded">
+                                   <xs:complexType>
+                                          <xs:sequence>
+                                                 <xs:element name="fname" type="xs:string"></xs:element>
+                                                 <xs:element name="lname" type="xs:string"></xs:element>
+                                                 <xs:element name="age" type="xs:int"></xs:element>
+                                             </xs:sequence>
+                                      </xs:complexType>
+                               </xs:element>
+                        </xs:sequence>
+                 </xs:complexType>
+          </xs:element>
+   </xs:schema>
